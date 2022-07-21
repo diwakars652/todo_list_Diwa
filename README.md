@@ -1,5 +1,3 @@
-## Deployed link:- **[Click here to run the app](https://renew-buycompany-assignment.vercel.app/)**
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
