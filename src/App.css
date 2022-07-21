@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.component {
+  justify-content: center;
+  align-items: center;
+}
+
+.containerr {
+  width: 100vw
+}
+
+.heading {
+  background-color: rgb(226, 218, 218);
+  box-shadow: 0px 3px 50px #d9dfda;
+  color: black;
+  display: block;
+  text-align: center;
+  padding-top: 4px;
+  height: 40px;
+  font-size: 26px;
+}
+
+.data_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto;
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+.containers-task {
+  width: 400px;
+  height: 600px;
+  margin: 10px;
+  text-align: center;
+   box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.containers-task-heading {
+  cursor: pointer;
+}
+
+.containers-task-heading:hover {
+  color: rgb(32, 30, 30);
+}
+
+.textExample-card {
+  text-align: justify;
+}
+
+.box {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  z-index: 1;
+  border: 1px solid red;
+  display: none;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+}
+
+Button {
+  width: 250px;
+  border:1px solid red
+}
+
+.btn:hover {
+  background-color: #76f3de;
+}
+
+.containers-task-heading {
+  font-size: 1.2rem;
+}
